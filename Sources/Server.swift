@@ -8,8 +8,6 @@
 import Foundation
 import Network
 
-let server = try? Server()
-
 class Server {
 
     private let listener: NWListener
